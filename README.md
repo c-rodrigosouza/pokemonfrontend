@@ -41,6 +41,9 @@ yarn install
 # executar o projeto
 yarn start
 ```
+Dados para realizar login:
+Usuário: admin
+Senha: admin
 
 # Autor
 
