@@ -1,0 +1,109 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: #ddd;
+  z-index: -999;
+}
+
+.pokemon-info-container {
+  flex: calc();
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.pokemon-info-box {
+  width: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pokemon-info-id-area {
+  padding: 0 5px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pokemon-info-back-button {
+  padding: 5px;
+  border-radius: 50px;
+  transition: all ease 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.pokemon-info-back-button:hover {
+  background-color: rgb(60,179,113);
+}
+
+.pokemon-info-imagearea {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  background-color: rgb(0,250,154);
+  flex-direction: column;
+  padding: 20px 10px 20px 10px;
+}
+
+.pokemon-info-imagearea span {
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.pokemon-info-imagearea img {
+  width: 150px;
+  height: 150px;
+  background-image: url('../../imgs/pokeball.png') ;
+  background-position: center;
+  background-size: cover;
+}
+
+.pokemon-info-idline {
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: end;
+  font-size: 2rem;
+}
+
+.pokemon-info-type-area {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pokemon-info-name {
+  text-transform: capitalize;
+}
+
+.pokemon-info-stats {
+  flex: 2;
+  background-color: white;
+  border-radius: 10px;
+  transform: translateY(-10px);
+  padding: 20px;
+}
+
+.info-area-span {
+  font-weight: bold;
+}
+
+.info-area-span::after {
+  content: ':';
+  border-bottom: 1px solid black;
+}
+
+@media screen and (max-width: 720px) {
+  .pokemon-info-box {
+    width: 100%;
+  }
+}

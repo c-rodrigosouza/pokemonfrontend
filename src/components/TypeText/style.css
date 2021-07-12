@@ -1,0 +1,12 @@
+.type-text-container {
+  padding: 3px;
+}
+
+.type-text {
+  padding: 5px 10px;
+  background-color: rgb(0,191,255);
+  border-radius: 100px;
+  color: white;
+  font-weight: bold;
+  box-shadow: 1px 1px 2px black;
+}

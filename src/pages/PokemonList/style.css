@@ -1,0 +1,21 @@
+.pokemon-list-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.pokemon-list-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 720px) {
+  .pokemon-list-list {
+    flex-direction: column;
+  }
+}

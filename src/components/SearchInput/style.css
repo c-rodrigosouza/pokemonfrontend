@@ -1,0 +1,27 @@
+.search-input-container {
+  width: 280px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-input-container input[type=text] {
+  outline: none;
+  width: 210px;
+  border-radius: 20px;
+  border: 1px solid #aaa;
+  text-indent: 5px;
+}
+
+.search-input-container button {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px black;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.search-input-container button:hover {
+  background-color: #bbb;
+  box-shadow: 1px 1px 2px black;
+}

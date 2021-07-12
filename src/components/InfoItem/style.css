@@ -1,0 +1,13 @@
+.info-item-container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.stat-name {
+  width: 150px;
+  color: #777
+}
+
+.data {
+  color: 333;
+}

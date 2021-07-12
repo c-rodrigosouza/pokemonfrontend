@@ -1,0 +1,30 @@
+.pages {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.page-button {
+  background-color: #87CEFA;
+  border-radius: 2px;
+  border: none;
+  height: 25px;
+  min-width: 25px;
+  cursor: pointer;
+  transition: all ease 0.2s;
+  margin-top: 10px;
+}
+
+.page-button + .page-button { 
+  margin-left: 5px;
+}
+
+.page-button-selected {
+  background-color: #4682B4;
+}
+
+.page-button:hover {
+  color: #fff;
+  background-color: #555;
+}
